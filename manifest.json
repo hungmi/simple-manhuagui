@@ -1,0 +1,17 @@
+{
+  "name": "Noise reduction of manhuagui",
+  "action": {},
+  "manifest_version": 3,
+  "version": "1.1",
+  "description": "No ads when reading comic books",
+  "content_scripts": [
+    {
+      "js": ["background.js"],
+      "matches": [
+        "https://www.manhuagui.com/comic/*/*.html",
+        "https://tw.manhuagui.com/comic/*/*.html",
+        "https://m.manhuagui.com/comic/*/*.html"
+      ]
+    }
+  ]
+}
