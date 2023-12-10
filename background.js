@@ -8,7 +8,7 @@ function clean_and_clear() {
 
   document.body.insertAdjacentHTML("beforeend", "<style>body>div.clearfix img{max-height:100vh;} body>div:has(iframe){display:none;}</style>")
 
-  alert("Clean and clear!")
+  // alert("Clean and clear!")
 }
 
 clean_and_clear()
